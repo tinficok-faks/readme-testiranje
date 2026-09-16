@@ -165,7 +165,8 @@ After execution, the GUI displays:
 Each room is shown as a separate card containing its capacity and a compact Monday–Friday timetable.
 
 | | |
-|<br>Choosing dataset<br>!(screenshots/01_choosing_dataset.png) | <br>Starting greedy<br>!(screenshots/02_greedy.png)
+| :---: | :---: |
+| <br>Choosing dataset<br>![](screenshots/01_choosing_dataset.png) | <br>Starting greedy<br>![](screenshots/02_greedy.png)
 
 ---
 
