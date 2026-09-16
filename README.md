@@ -130,7 +130,7 @@ The GUI searches for either `make` or `mingw32-make` and uses it to build the C+
 ```bash
 python app.py
 ```
-`/n`
+
 
 ---
 
