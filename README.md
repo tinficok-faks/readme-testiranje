@@ -200,8 +200,6 @@ The official ITC2007 Post-Enrolment Course Timetabling page provides the problem
 
 ## 📂 Project Structure
 
-The following structure follows the organization used by the project and is intentionally presented in a compact, documentation-oriented form.
-
 ```text
 Post-Enrolment-Course-Timetabling/
 ├── datasets/                         # ITC-style .tim problem instances
