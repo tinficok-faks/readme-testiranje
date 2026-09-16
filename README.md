@@ -164,11 +164,13 @@ After execution, the GUI displays:
 
 Each room is shown as a separate card containing its capacity and a compact Monday–Friday timetable.
 
+### Step-by-step with pictures 
+
 | | |
 | :---: | :---: |
 | <br>Choosing dataset<br>![](screenshots/01_choosing_dataset.png) | <br>Starting greedy<br>![](screenshots/02_greedy.png) |
-| <br>Choosing 1 of 4 `local search` algorithms<br>![](screenshots/03_choosing_ls_alg.png) | <br>🟨 Total cost of hard or soft constraint violations<br>!
-                                                                                             <br>🟪 Unsorted events<br>![](screenshots/04_total_cost.png) |
+| <br>Choosing 1 of 4 `local search` algorithms<br>![](screenshots/03_choosing_ls_alg.png) | <br>🟨 Total cost of hard or soft constraint violations<br>! <br>🟪 Unsorted events<br>![](screenshots/04_total_cost.png) |
+| <br>Sorted events by room<br>![](screenshots/05_sorted_events_by_room.png) | <br>Deleting unwanted files after using a program<br>![]()
 
 ---
 
