@@ -1,5 +1,7 @@
 # Post-Enrolment Course Timetabling (PECT)
 
+---
+
 A university course timetabling application project developed for solving the **Post-Enrolment Course Timetabling (PECT)** problem. The project combines a Python/CustomTkinter GUI with C++ implementations of constructive and local-search based approaches.
 
 > **Important:** Before running the application, install the GUI dependency:
@@ -169,8 +171,10 @@ Each room is shown as a separate card containing its capacity and a compact Mond
 | | |
 | :---: | :---: |
 | <br>Choosing dataset<br>![](screenshots/01_choosing_dataset.png) | <br>Starting greedy<br>![](screenshots/02_greedy.png) |
-| <br>Choosing 1 of 4 `local search` algorithms<br>![](screenshots/03_choosing_ls_alg.png) | <br>🟨 Total cost of hard or soft constraint violations<br>! <br>🟪 Unsorted events<br>![](screenshots/04_total_cost.png) |
-| <br>Sorted events by room<br>![](screenshots/05_sorted_events_by_room.png) | <br>Deleting unwanted files after using a program<br>![]()
+| <br>Choosing 1 of 4 local search algorithms<br>![](screenshots/03_choosing_ls_alg.png) | <br>🟨 Total cost of hard or soft constraint violations<br> <br>🟪 Unsorted events<br>![](screenshots/04_total_cost.png) |
+| <br>Sorted events by room<br>![](screenshots/05_sorted_events_by_room.png) | <br>Deleting unwanted files after using a program<br>![](screenshots/06_file_deletion.png) |
+
+> To start algorithm after `Deleting unwanted files.. (6.)`, start greedy (2.) for app to build needed files.
 
 ---
 
