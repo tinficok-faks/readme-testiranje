@@ -48,9 +48,9 @@ A valid timetable must respect the following constraints:
 
 The project also evaluates undesirable timetable patterns:
 
-- a student having an event in the last timeslot of a day;
-- three or more consecutive events in one day;
-- having only one event in a day.
+- a student having an event in the last timeslot of a day
+- three or more consecutive events in one day
+- having only one event in a day
 
 A solution may leave some events unplaced and still remain **valid**. The resulting **distance to feasibility** is the number of students who would attend the unplaced events. A solution with no unplaced events and no violated hard constraints is **feasible**.
 
@@ -63,25 +63,23 @@ A solution may leave some events unplaced and still remain **valid**. The result
 
 ## Features
 
-- CustomTkinter desktop GUI for selecting datasets and running algorithms.
-- Support for all 24 listed datasets (`dataset1.tim` ... `dataset24.tim`).
+- CustomTkinter desktop GUI for selecting datasets and running algorithms
+- Support for all 24 listed datasets (`dataset1.tim` ... `dataset24.tim`)
 - Greedy timetable construction.
 - Tabu Search used as a starting solution for local search.
 - Four local-search configurations:
-  1.1) Best-improving Transfer
-  1.2) First-improving Transfer
-  2.1) Best-improving Swap
-  2.2) First-improving Swap
-- Automatic timetable validation using `check.cpp` / `check.exe`.
-- Automatic calculation and display of hard- and soft-constraint costs.
-- Room-by-room timetable visualization directly inside the GUI.
-- Automatic generation of solution files in the corresponding output directories.
-
-The GUI exposes these operations directly and disables conflicting controls while an algorithm is running.
+  - Best-improving Transfer
+  - First-improving Transfer
+  - Best-improving Swap
+  - First-improving Swap
+- Automatic timetable validation using `check.cpp` / `check.exe`
+- Automatic calculation and display of hard-constraint and soft-constraint costs
+- Room-by-room timetable visualization directly inside the GUI
+- Automatic generation of solution files in the corresponding output directories
 
 ---
 
-## 🧠 Algorithms
+## <u>Algorithms</u>
 
 ### Greedy Method
 
