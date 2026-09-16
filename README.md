@@ -131,7 +131,7 @@ python app.py
 
 ---
 
-## How to use the GUI ---- (dodati neke screesnotove ovdje vj)
+## How to use the GUI
 
 ### Step 1 — Select a dataset
 
