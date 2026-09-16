@@ -17,11 +17,11 @@ A university course timetabling application project developed for solving the **
 - [About the Problem](#about-the-problem)
 - [Features](#features)
 - [Algorithms](#algorithms)
-- [How to install/start it](#how-to-install/start-it)
-- [How to use the GUI](#-how-to-use-the-gui)
-- [Project Structure](#-project-structure)
-- [Output and Evaluation](#-output-and-evaluation)
+- [How to install/start it](#how-to-install-&-start-it)
+- [How to use the GUI](#how-to-use-the-gui)
+- [Output and Evaluation](#output-and-evaluation)
 - [Datasets](#-datasets)
+- [Project Structure](#-project-structure)
 
 ---
 
@@ -104,7 +104,7 @@ The executable accepts method numbers `1–4` for these combinations, while `-1`
 
 ---
 
-## How to install/start it
+## How to install & start it
 
 ### 1. Clone the repository
 
