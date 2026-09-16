@@ -14,10 +14,10 @@ A university course timetabling application project developed for solving the **
 
 ## Table of Contents
 
-- [About the Problem](#-about-the-problem)
-- [Features](#-features)
-- [Algorithms](#-algorithms)
-- [How to install/start it](#-how-to-install/start-it)
+- [About the Problem](#about-the-problem)
+- [Features](#features)
+- [Algorithms](#algorithms)
+- [How to install/start it](#how-to-install/start-it)
 - [How to use the GUI](#-how-to-use-the-gui)
 - [Project Structure](#-project-structure)
 - [Output and Evaluation](#-output-and-evaluation)
