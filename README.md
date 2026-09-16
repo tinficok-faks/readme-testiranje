@@ -33,10 +33,6 @@ The **Post-Enrolment Course Timetabling** problem schedules university events af
 
 In this project, each instance contains events, rooms, room features, students, event availability, student attendance information, and precedence requirements. The implementation works with the competition-style `.tim` datasets and 45 timeslots (5 working days × 9 periods), matching the assignment specification.
 
-#### More about the problem and said competition:
-- [ITC2007 – International Timetabling Competition](https://www.eeecs.qub.ac.uk/itc2007/index.htm)
-- [ITC2007 – Post Enrolment Course Timetabling](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/course_post_index.htm)
-- [Official PECT problem description](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/report/Post%20Enrolment%20based%20CourseTimetabling.pdf)
 
 ### Hard constraints
 
@@ -58,19 +54,24 @@ The project also evaluates undesirable timetable patterns:
 
 A solution may leave some events unplaced and still remain **valid**. The resulting **distance to feasibility** is the number of students who would attend the unplaced events. A solution with no unplaced events and no violated hard constraints is **feasible**.
 
+### More about the problem and said competition:
+- [ITC2007 – International Timetabling Competition](https://www.eeecs.qub.ac.uk/itc2007/index.htm)
+- [ITC2007 – Post Enrolment Course Timetabling](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/course_post_index.htm)
+- [Official PECT problem description](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/report/Post%20Enrolment%20based%20CourseTimetabling.pdf)
+
 ---
 
-## ✨ Features
+## Features
 
 - CustomTkinter desktop GUI for selecting datasets and running algorithms.
-- Support for **24 datasets** (`dataset1.tim` ... `dataset24.tim`).
+- Support for all 24 listed datasets (`dataset1.tim` ... `dataset24.tim`).
 - Greedy timetable construction.
 - Tabu Search used as a starting solution for local search.
 - Four local-search configurations:
-  - Best-improving Transfer
-  - First-improving Transfer
-  - Best-improving Swap
-  - First-improving Swap
+  1.1) Best-improving Transfer
+  1.2) First-improving Transfer
+  2.1) Best-improving Swap
+  2.2) First-improving Swap
 - Automatic timetable validation using `check.cpp` / `check.exe`.
 - Automatic calculation and display of hard- and soft-constraint costs.
 - Room-by-room timetable visualization directly inside the GUI.
