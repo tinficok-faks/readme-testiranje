@@ -131,6 +131,7 @@ The GUI searches for either `make` or `mingw32-make` and uses it to build the C+
 python app.py
 ```
 
+
 ---
 
 ## How to Use the GUI ---- (dodati neke screesnotove ovdje vj)
