@@ -83,11 +83,9 @@ A solution may leave some events unplaced and still remain **valid**. The result
 
 The greedy solver parses the selected `.tim` instance, builds a conflict graph, constructs a timetable, validates it, and attempts to repair it when necessary. The resulting schedule is then evaluated and written to the greedy output directory.
 
-### Tabu Search --- ili necemo spomenuti tabu igdje?
+### Local Search
 
 Tabu Search is used to produce a common starting solution for the local-search methods. The current implementation solves the selected dataset and stores the resulting schedule in `tabu_outputs`.
-
-### Local Search
 
 Two neighbourhood concepts are implemented:
 
