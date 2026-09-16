@@ -14,20 +14,17 @@ A university course timetabling application project developed for solving the **
 
 ## Table of Contents
 
-- [Problem Overview](#-problem-overview)
+- [About the Problem](#-about-the-problem)
 - [Features](#-features)
 - [Algorithms](#-algorithms)
-- [Getting Started](#-getting-started)
-- [How to Use the GUI](#-how-to-use-the-gui)
-- [Output and Evaluation](#-output-and-evaluation)
+- [How to install/start it](#-how-to-install/start-it)
+- [How to use the GUI](#-how-to-use-the-gui)
 - [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
 - [Datasets](#-datasets)
-- [Technical Notes](#-technical-notes)
 
 ---
 
-## About the problem
+## About the Problem
 
 The **Post-Enrolment Course Timetabling** problem schedules university events after students have already selected the courses they want to attend. The timetable assigns each event a **timeslot** and a **room**, while respecting hard constraints and trying to minimize soft-constraint violations. This formulation was used as Track 2 of the Second International Timetabling Competition (ITC2007). The official problem description emphasizes that knowing student enrolments at timetable-construction time allows the timetable to be built around actual student choices.
 
@@ -133,7 +130,7 @@ python app.py
 
 ---
 
-## How to Use the GUI ---- (dodati neke screesnotove ovdje vj)
+## How to use the GUI ---- (dodati neke screesnotove ovdje vj)
 
 ### Step 1 — Select a dataset
 
