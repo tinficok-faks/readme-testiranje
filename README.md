@@ -70,7 +70,7 @@ A solution may leave some events unplaced and still remain **valid**. The result
   - First-improving Transfer
   - Best-improving Swap
   - First-improving Swap
-- Automatic timetable validation using `check.cpp` / `check.exe`
+- Automatic timetable validation using `check`
 - Automatic calculation and display of hard-constraint and soft-constraint costs
 - Room-by-room timetable visualization directly inside the GUI
 - Automatic generation of solution files in the corresponding output directories
