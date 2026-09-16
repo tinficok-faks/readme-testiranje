@@ -12,7 +12,7 @@ A university course timetabling application developed for solving the **Post-Enr
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Problem Overview](#-problem-overview)
 - [Features](#-features)
@@ -28,7 +28,7 @@ A university course timetabling application developed for solving the **Post-Enr
 
 ---
 
-## 🧩 Problem Overview
+## Little about the 'problem'
 
 The **Post-Enrolment Course Timetabling** problem schedules university events after students have already selected the courses they want to attend. The timetable assigns each event a **timeslot** and a **room**, while respecting hard constraints and trying to minimize soft-constraint violations. This formulation was used as Track 2 of the Second International Timetabling Competition (ITC2007). The official problem description emphasizes that knowing student enrolments at timetable-construction time allows the timetable to be built around actual student choices.
 
