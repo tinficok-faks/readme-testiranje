@@ -106,7 +106,7 @@ The executable accepts method numbers `1–4` for these combinations, while `-1`
 
 ---
 
-## 🚀 Getting Started
+## How to install/start it
 
 ### 1. Clone the repository
 
@@ -135,7 +135,7 @@ The application creates a window titled **PECT - Generator rasporeda** and provi
 
 ---
 
-## 🖥️ How to Use the GUI
+## How to Use the GUI ---- (dodati neke screesnotove ovdje vj)
 
 ### Step 1 — Select a dataset
 
@@ -170,7 +170,7 @@ Each room is shown as a separate card containing its capacity and a compact Mond
 
 ---
 
-## 📊 Output and Evaluation
+## Output and Evaluation
 
 The assignment requires the generated results to report:
 
@@ -189,6 +189,14 @@ The GUI interprets the validator return value as follows:
 - positive value → soft-constraint cost;
 - negative value → hard-constraint violations;
 - zero → feasible timetable with no reported soft cost.
+
+---
+
+## 📁 Datasets
+
+The assignment requires the available instances in the `datasets` directory to be used. The GUI currently accepts dataset numbers from **1 to 24** and expects the corresponding filenames `datasetN.tim`.
+
+The official ITC2007 Post-Enrolment Course Timetabling page provides the problem model, instance information, input format, output format and validation resources.
 
 ---
 
@@ -229,84 +237,3 @@ Post-Enrolment-Course-Timetabling/
 ├── check.exe                         # Validator executable (generated/used on Windows)
 └── README.md                         # Project documentation
 ```
-
-The top-level directories used by the GUI are defined explicitly in `app.py`, including `datasets`, `greedy`, `local_search`, `greedy_outputs`, `tabu_outputs`, `ls_outputs/ls1_outputs`, and `ls_outputs/ls2_outputs`.
-
-The C++ entry points confirm the separation between the greedy solver and the local-search/Tabu Search implementation.
-
----
-
-## 🖼️ Screenshots
-
-The project is especially suitable for showing the GUI directly in the README. Recommended screenshots are:
-
-### Main GUI
-
-Show the application immediately after launch, before a dataset is selected. This should clearly show the header, dataset selection area, algorithm buttons and the empty result section.
-
-```md
-![Main GUI](screenshots/main_gui.png)
-```
-
-### Dataset Selected
-
-Show the GUI after selecting an instance such as `dataset1.tim`, with the selected dataset visible and the algorithm controls ready.
-
-```md
-![Dataset selected](screenshots/dataset_selected.png)
-```
-
-### Generated Timetable
-
-Show the results panel after an algorithm finishes. The most useful view contains the algorithm name, validation/cost information, unplaced-event information and several room cards with the Monday–Friday timetable.
-
-```md
-![Generated timetable](screenshots/generated_timetable.png)
-```
-
-> **Screenshot note:** I was not able to execute the complete repository in this environment because the repository could not be cloned into the execution environment and the project depends on the full C++ source tree plus local build tools. The GUI layout and the recommended screenshots above are therefore based on the actual `app.py` implementation rather than fabricated runtime images. The GUI code confirms a 1480×900 default window, dataset-selection controls, five algorithm buttons and room-by-room result cards.
-
----
-
-## 📁 Datasets
-
-The assignment requires the available instances in the `datasets` directory to be used. The GUI currently accepts dataset numbers from **1 to 24** and expects the corresponding filenames `datasetN.tim`.
-
-The official ITC2007 Post-Enrolment Course Timetabling page provides the problem model, instance information, input format, output format and validation resources.
-
----
-
-## 🔧 Technical Notes
-
-### GUI ↔ C++ integration
-
-The Python GUI does not implement the optimization algorithms itself. Instead, it:
-
-1. selects the input dataset;
-2. builds the relevant C++ project with `make` or `mingw32-make`;
-3. runs the generated executable;
-4. reads the produced `.sln` solution file;
-5. validates the schedule with `check.exe`;
-6. parses the schedule and renders it as room cards in the GUI.
-
-### Solution format
-
-The GUI expects each event to be represented by a line containing:
-
-```text
-<timeslot> <room>
-```
-
-An unplaced event is represented as:
-
-```text
--1 -1
-```
-
-The GUI converts the solution into `room → timeslot → event` mappings for visualization.
-
-### Timeslots
-
-The implementation uses **45 timeslots**, organized as **5 days × 9 slots per day**. The final five slots of each day are represented by the indices used for the soft constraint concerning end-of-day events.
-
----
