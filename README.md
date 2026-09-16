@@ -24,15 +24,19 @@ A university course timetabling application developed for solving the **Post-Enr
 - [Screenshots](#-screenshots)
 - [Datasets](#-datasets)
 - [Technical Notes](#-technical-notes)
-- [References](#-references)
 
 ---
 
-## Little about the 'problem'
+## About the problem
 
 The **Post-Enrolment Course Timetabling** problem schedules university events after students have already selected the courses they want to attend. The timetable assigns each event a **timeslot** and a **room**, while respecting hard constraints and trying to minimize soft-constraint violations. This formulation was used as Track 2 of the Second International Timetabling Competition (ITC2007). The official problem description emphasizes that knowing student enrolments at timetable-construction time allows the timetable to be built around actual student choices.
 
 In this project, each instance contains events, rooms, room features, students, event availability, student attendance information, and precedence requirements. The implementation works with the competition-style `.tim` datasets and 45 timeslots (5 working days × 9 periods), matching the assignment specification.
+
+More about the problem and said competition:
+- [ITC2007 – International Timetabling Competition](https://www.eeecs.qub.ac.uk/itc2007/index.htm)
+- [ITC2007 – Post Enrolment Course Timetabling](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/course_post_index.htm)
+- [Official PECT problem description](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/report/Post%20Enrolment%20based%20CourseTimetabling.pdf)
 
 ### Hard constraints
 
@@ -307,16 +311,6 @@ The GUI converts the solution into `room → timeslot → event` mappings for vi
 The implementation uses **45 timeslots**, organized as **5 days × 9 slots per day**. The final five slots of each day are represented by the indices used for the soft constraint concerning end-of-day events.
 
 ---
-
-## 📚 References
-
-- [ITC2007 – International Timetabling Competition](https://www.eeecs.qub.ac.uk/itc2007/index.htm)
-- [ITC2007 – Post Enrolment Course Timetabling](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/course_post_index.htm)
-- [Official PECT problem description](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/report/Post%20Enrolment%20based%20CourseTimetabling.pdf)
-- [Example README style – IO58-2026_Mikolcevic_Vargek](https://github.com/TonyVargek/IO58-2026_Mikolcevic_Vargek)
-- [Example README – Blockchain_zavrsni](https://github.com/petarL1232/Blockchain_zavrsni)
-- [Example README – HamPathCalc](https://github.com/HamPathCalc/HamPathCalc.github.io)
-- [Example README – PiGate](https://github.com/TinArambasic/PiGate)
 
 ---
 
