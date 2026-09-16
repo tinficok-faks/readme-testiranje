@@ -1,6 +1,6 @@
 # Post-Enrolment Course Timetabling (PECT)
 
-A university course timetabling application project developed for solving the **Post-Enrolment Course Timetabling (PECT)** problem. The project combines a Python/CustomTkinter GUI with C++ implementations of constructive and local-search based approaches.
+A university course timetabling application project developed for solving the **Post-Enrolment Course Timetabling (PECT)** problem. The project combines a Python/CustomTkinter GUI with C++ implementations of greedy and local-search based approaches.
 
 > **Important:** Before running the application, install the GUI dependency:
 >
