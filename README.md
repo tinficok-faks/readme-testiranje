@@ -79,7 +79,7 @@ A solution may leave some events unplaced and still remain **valid**. The result
 
 ---
 
-## <u>Algorithms</u>
+## Algorithms
 
 ### Greedy Method
 
