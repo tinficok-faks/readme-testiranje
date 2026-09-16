@@ -1,6 +1,6 @@
 # Post-Enrolment Course Timetabling (PECT)
 
-A university course timetabling application developed for solving the **Post-Enrolment Course Timetabling (PECT)** problem. The project combines a Python/CustomTkinter GUI with C++ implementations of constructive and local-search based approaches.
+A university course timetabling application project developed for solving the **Post-Enrolment Course Timetabling (PECT)** problem. The project combines a Python/CustomTkinter GUI with C++ implementations of constructive and local-search based approaches.
 
 > **Important:** Before running the application, install the GUI dependency:
 >
@@ -33,7 +33,7 @@ The **Post-Enrolment Course Timetabling** problem schedules university events af
 
 In this project, each instance contains events, rooms, room features, students, event availability, student attendance information, and precedence requirements. The implementation works with the competition-style `.tim` datasets and 45 timeslots (5 working days × 9 periods), matching the assignment specification.
 
-More about the problem and said competition:
+#### More about the problem and said competition:
 - [ITC2007 – International Timetabling Competition](https://www.eeecs.qub.ac.uk/itc2007/index.htm)
 - [ITC2007 – Post Enrolment Course Timetabling](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/course_post_index.htm)
 - [Official PECT problem description](https://www.eeecs.qub.ac.uk/itc2007/postenrolcourse/report/Post%20Enrolment%20based%20CourseTimetabling.pdf)
@@ -311,10 +311,3 @@ The GUI converts the solution into `room → timeslot → event` mappings for vi
 The implementation uses **45 timeslots**, organized as **5 days × 9 slots per day**. The final five slots of each day are represented by the indices used for the soft constraint concerning end-of-day events.
 
 ---
-
----
-
-## 👥 Project
-
-**Post-Enrolment-Course-Timetabling**  
-University course timetabling project based on the PECT formulation from ITC2007.
