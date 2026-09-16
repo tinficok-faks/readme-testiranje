@@ -20,6 +20,7 @@ A university course timetabling application project developed for solving the **
 - [How to install/start it](#-how-to-install/start-it)
 - [How to use the GUI](#-how-to-use-the-gui)
 - [Project Structure](#-project-structure)
+- [Output and Evaluation](#-output-and-evaluation)
 - [Datasets](#-datasets)
 
 ---
@@ -162,6 +163,10 @@ After execution, the GUI displays:
 - a room-by-room timetable covering the 45 available timeslots.
 
 Each room is shown as a separate card containing its capacity and a compact Monday–Friday timetable.
+
+| | |
+| :---: | :---: |
+|<br>Choosing dataset<br>!(screenshots/01_choosing_dataset) |
 
 ---
 
