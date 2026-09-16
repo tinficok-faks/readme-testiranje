@@ -131,8 +131,6 @@ The GUI searches for either `make` or `mingw32-make` and uses it to build the C+
 python app.py
 ```
 
-The application creates a window titled **PECT - Generator rasporeda** and provides controls for dataset selection, algorithm execution, cleaning generated files, and timetable/result display.
-
 ---
 
 ## How to Use the GUI ---- (dodati neke screesnotove ovdje vj)
