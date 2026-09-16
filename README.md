@@ -85,7 +85,7 @@ A solution may leave some events unplaced and still remain **valid**. The result
 
 The greedy solver parses the selected `.tim` instance, builds a conflict graph, constructs a timetable, validates it, and attempts to repair it when necessary. The resulting schedule is then evaluated and written to the greedy output directory.
 
-### Tabu Search
+### Tabu Search --- ili necemo spomenuti tabu igdje?
 
 Tabu Search is used to produce a common starting solution for the local-search methods. The current implementation solves the selected dataset and stores the resulting schedule in `tabu_outputs`.
 
@@ -93,14 +93,14 @@ Tabu Search is used to produce a common starting solution for the local-search m
 
 Two neighbourhood concepts are implemented:
 
-**Transfer neighbourhood** — moves an event from its current assignment to another valid assignment.
+**Transfer neighbourhood** — moves an event from its current assignment to another valid assignment
 
-**Swap neighbourhood** — exchanges assignments between events.
+**Swap neighbourhood** — exchanges assignments between events
 
 For both neighbourhoods the implementation provides:
 
-- **Best-improving neighbour** — examines candidates and chooses the best improvement.
-- **First-improving neighbour** — stops at the first improving candidate.
+- **Best-improving neighbour** — examines candidates and chooses the best improvement
+- **First-improving neighbour** — stops at the first improving candidate
 
 The executable accepts method numbers `1–4` for these combinations, while `-1` generates only the Tabu Search solution.
 
