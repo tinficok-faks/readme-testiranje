@@ -17,7 +17,7 @@ A university course timetabling application project developed for solving the **
 - [About the Problem](#about-the-problem)
 - [Features](#features)
 - [Algorithms](#algorithms)
-- [How to install/start it](#how-to-install-&-start-it)
+- [How to install & start it](#how-to-install-&-start-it)
 - [How to use the GUI](#how-to-use-the-gui)
 - [Output and Evaluation](#output-and-evaluation)
 - [Datasets](#-datasets)
